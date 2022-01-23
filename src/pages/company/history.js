@@ -1,7 +1,8 @@
 import React from "react"
+import Layout from "../../components/Layout"
 
 const history = () => {
-  return <div>This is history of our company</div>
+  return <Layout>This is history of our company</Layout>
 }
 
 export default history
