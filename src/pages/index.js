@@ -5,7 +5,11 @@ import Layout from "../components/Layout"
 export default function Home() {
   return (
     <Layout>
-      <h1>Hello World</h1>
+      <div className="home-heading">
+        <h1>Hello world </h1>
+        <h1>Ronit</h1>
+      </div>
+
       <div>
         <Link to="/about">About Us</Link>
       </div>
