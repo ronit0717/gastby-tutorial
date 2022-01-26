@@ -1,13 +1,14 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as aboutStyles from "../examples/about.module.css"
+import styled from "styled-components"
 
 const about = () => {
   return (
     <Layout>
-      <div className={aboutStyles.page}>
+      <Wrapper>
         <h1>Hello its about page</h1>
-        <p className={aboutStyles.text}>
+        <p className="text">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -18,9 +19,21 @@ const about = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
-      </div>
+      </Wrapper>
     </Layout>
   )
 }
+
+const Wrapper = styled.section`
+  color: blue;
+
+  h1 {
+    color: yellowgreen;
+  }
+
+  .text {
+    text-transform: uppercase;
+  }
+`
 
 export default about
