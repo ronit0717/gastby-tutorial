@@ -1,12 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-const Error = () => {
+const Tags = () => {
   return (
     <Layout>
-      <h1>Error Page</h1>
+      <h1>Tags Page</h1>
     </Layout>
   )
 }
 
-export default Error
+export default Tags
