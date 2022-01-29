@@ -1,39 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/Layout"
-import { page, text } from "../examples/home.module.css"
-import { ExampleButton } from "../examples/button"
 
 export default function Home() {
   return (
     <Layout>
-      <div className={page}>
-        <ExampleButton>Click Me</ExampleButton>
-        <h1>Hello world </h1>
-        <h1>Ronit</h1>
-      </div>
-
-      <p className={text}>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
-
-      <div>
-        <Link to="/about">About Us</Link>
-      </div>
-      <div>
-        <Link to="/company/history">History</Link>
-      </div>
-      <div>
-        <a href="https://www.gatsbyjs.com/docs/how-to">Gatsby Docs</a>
-      </div>
+      <h1>Home Page</h1>
     </Layout>
   )
 }
