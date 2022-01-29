@@ -1,9 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FaAlignJustify } from "react-icons/fa"
 
 const Navbar = () => {
   return (
     <nav>
+      <FaAlignJustify />
       <ul>
         <li>
           <Link to="/">Home</Link>
